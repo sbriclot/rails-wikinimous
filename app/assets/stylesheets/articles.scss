@@ -1,0 +1,71 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+// common
+.navbar {
+  background-color: #F8F8F8;
+  font-family: "Helvetica";
+  color: gray;
+  font-size: 18px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid lightgray;
+}
+
+.navbar a {
+  text-decoration: none;
+  padding:10px;
+  color: gray;
+  font-size: 16px;
+  &:hover {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.container {
+  margin: auto;
+  font-family: "Roboto";
+}
+
+// index
+.post {
+  margin-bottom: 20px;
+}
+
+.post h2 a {
+  text-decoration: none;
+  color: #337ab7;
+  &:hover {
+    text-decoration: underline;
+    color: #23527C;
+  }
+}
+
+// show
+.show-container {
+  font-family: "Helvetica";
+  width: 350px;
+}
+
+.show-title {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 15px;
+}
+
+.show-title a {
+  margin-left: 10px;
+}
+
+// edit
+.input label {
+  display: block;
+  font-weight: bold;
+}
+
+#article_title, #article_content {
+  width: 100%;
+  margin-bottom: 15px;
+}

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>RailsWikinimous</title>
+    <title>SoutParksWikinimous</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,6 +10,14 @@
   </head>
 
   <body>
+    <div class="navbar">
+      <div class="title">
+        <a href="/"> South Parks Quotes</a>
+      </div>
+      <div class="new-article">
+        <a href="/articles/new">New Article</a>
+      </div>
+    </div>
     <%= yield %>
   </body>
 </html>
